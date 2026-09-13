@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Starworks</title>
+
+    <meta
+        name="description"
+        content="Starworks — personal space on the internet."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+
+<body>
+
+    <!-- =========================================
+         ANIMATED BACKGROUND
+    ========================================== -->
+
+    <canvas id="background"></canvas>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+
+    <!-- =========================================
+         ENTER SCREEN
+    ========================================== -->
+
+    <section
+        id="enter-screen"
+        onclick="enterWebsite()"
+    >
+
+        <div class="enter-content">
+
+            <div class="enter-pfp">
+                <img
+                    src="assets/pfp.jpg"
+                    alt="Starworks"
+                >
+            </div>
+
+            <h1>Starworks</h1>
+
+            <p class="enter-text">
+                CLICK TO CONTINUE
+            </p>
+
+            <div class="enter-line"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         MAIN WEBSITE
+    ========================================== -->
+
+    <main id="website">
+
+        <!-- =====================================
+             HERO
+        ====================================== -->
+
+        <section class="hero">
+
+            <!-- LEFT -->
+
+            <div class="hero-content">
+
+                <span class="small-label">
+                    ABOUT ME
+                </span>
+
+                <h1>
+                    Welcome to
+                    <span class="blue-text">
+                        Starworks
+                    </span>
+                </h1>
+
+                <p class="description">
+                    I'm someone who enjoys building things,
+                    learning technology and experimenting
+                    with programming, AI and hardware.
+                </p>
+
+                <p class="description secondary">
+                    Exploring ideas, creating projects and
+                    learning something new every day.
+                </p>
+
+
+                <div class="status">
+
+                    <span class="status-dot"></span>
+
+                    <span>
+                        Currently building
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT -->
+
+            <div class="hero-profile">
+
+                <div class="profile-glow"></div>
+
+                <div class="large-pfp-ring"></div>
+
+                <img
+                    src="assets/pfp.jpg"
+                    alt="Starworks"
+                    class="large-pfp"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SKILLS
+        ====================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <span class="small-label">
+                    INTERESTS
+                </span>
+
+                <h2>
+                    Things I like
+                </h2>
+
+            </div>
+
+
+            <div class="skills">
+
+                <div class="skill">
+                    Java
+                </div>
+
+                <div class="skill">
+                    AI
+                </div>
+
+                <div class="skill">
+                    Linux
+                </div>
+
+                <div class="skill">
+                    Web Development
+                </div>
+
+                <div class="skill">
+                    Game Development
+                </div>
+
+                <div class="skill">
+                    Robotics
+                </div>
+
+                <div class="skill">
+                    Hardware
+                </div>
+
+                <div class="skill">
+                    Video Editing
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             LINKS
+        ====================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <span class="small-label">
+                    LINKS
+                </span>
+
+                <h2>
+                    Find me
+                </h2>
+
+            </div>
+
+
+            <div class="links">
+
+                <!-- DISCORD -->
+
+                <a
+                    href="https://discord.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link-card"
+                >
+
+                    <div class="link-icon">
+                        D
+                    </div>
+
+                    <div class="link-info">
+
+                        <span class="link-name">
+                            Discord
+                        </span>
+
+                        <span class="link-description">
+                            Community & chat
+                        </span>
+
+                    </div>
+
+                    <span class="link-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
+                <!-- GITHUB -->
+
+                <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link-card"
+                >
+
+                    <div class="link-icon">
+                        G
+                    </div>
+
+                    <div class="link-info">
+
+                        <span class="link-name">
+                            GitHub
+                        </span>
+
+                        <span class="link-description">
+                            Projects & code
+                        </span>
+
+                    </div>
+
+                    <span class="link-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
+                <!-- INSTAGRAM -->
+
+                <a
+                    href="https://instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link-card"
+                >
+
+                    <div class="link-icon">
+                        I
+                    </div>
+
+                    <div class="link-info">
+
+                        <span class="link-name">
+                            Instagram
+                        </span>
+
+                        <span class="link-description">
+                            Social
+                        </span>
+
+                    </div>
+
+                    <span class="link-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FOOTER
+        ====================================== -->
+
+        <footer>
+
+            <span>
+                © 2026 Starworks
+            </span>
+
+            <span class="footer-dot">
+                •
+            </span>
+
+            <span>
+                Built with curiosity.
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
